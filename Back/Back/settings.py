@@ -62,7 +62,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL=True
-ROOT_URLCONF = 'bss_back.urls'
+ROOT_URLCONF = 'Back.urls'
 
 #####################################
 USE_L10N = False
@@ -86,7 +86,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bss_back.wsgi.application'
+WSGI_APPLICATION = 'Back.wsgi.application'
 
 
 # Database
