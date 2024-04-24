@@ -1,0 +1,72 @@
+.mainImage {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+
+.log {
+  width: 20%;
+  margin: 10% 0 0 48%;
+  padding: 2%;
+  background-image: url('https://kartinki.pics/uploads/posts/2021-07/1626951978_9-kartinkin-com-p-krasivii-fon-dlya-menyu-restorana-krasivo-9.jpg');
+  background-size: 160%;
+  color: rgb(0, 0, 0);
+  border: 4px rgb(70, 70, 163) solid;
+  border-radius: 20px;
+  margin-left: 550px;
+}
+
+.inp {
+  width: 100%;
+  height: 30px;
+}
+
+.tit {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+  margin-right: 10px;
+  background-color: azure;
+  border: 2px azure solid;
+  border-radius: 10px;
+}
+
+.botBar {
+  margin-top: 50px;
+}
+
+
+.logW {
+  font-size: large;
+}
+
+#registerButton {
+  margin-left: 40%;
+}
+
+.buts {
+  width: 30%;
+  height: 24px;
+  border: 2px green solid;
+  border-radius: 30px;
+}
+
+.buts:active {
+  background-color: yellowgreen;
+}
+
+#logoutButton {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  padding: 0.7%;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 2px 10px;
+  background-color:  rgba(255, 255, 255, 0.5);
+  font-size: large;
+}
